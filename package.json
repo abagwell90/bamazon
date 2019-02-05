@@ -1,0 +1,15 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bamazonCustomers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Bagwell",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.2.2",
+    "promise-mysql": "^3.3.1"
+  }
+}
