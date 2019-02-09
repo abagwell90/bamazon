@@ -11,7 +11,8 @@ This is a Amazon-like storefront with MySQL as the database to store the invento
 
 Here's how the app works?:
 
-The app will take in orders from customers and deplete stock from the store's inventory. 
+The app will take in orders from customers. The app then checks this order based on the current quantity in the database, and will deplete stock from the store's inventory if order is processed.
+
 My app prompts the user to answer two questions:
 What fruit or vegetable do you want to order?
 How many do you want to buy?
@@ -26,7 +27,7 @@ stock_quantity (how much of the product is available in stores)
 
 Why the project is useful?:
 
-Teaches me javascript, node, MySQL, Inquirer. 
+Teaches me JavaScript, Node.js, MySQL, Inquirer. 
 
 Who maintains and contributes to the project?:
 
